@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Enroll your child in Excellence School District - Step by step enrollment process.">
+    <title>Enrollment | Excellence School District</title>
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 50 50" width="32" height="32">
+                        <path d="M25 5L45 15V35L25 45L5 35V15L25 5Z" fill="white" />
+                    </svg>
+                </div>
+                <span class="logo-text">Excellence<span>SD</span></span>
+            </a>
+
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About District</a>
+                <a href="schools.html" class="nav-link">Schools</a>
+                <a href="enrollment.html" class="nav-link active">Enrollment</a>
+                <a href="academics.html" class="nav-link">Academics</a>
+                <a href="careers.html" class="nav-link">Careers</a>
+                <a href="news-events.html" class="nav-link">News & Events</a>
+                <a href="enrollment.html" class="btn-primary">Enroll Now</a>
+            </div>
+
+            <button class="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 50 50" width="32" height="32">
+                        <path d="M25 5L45 15V35L25 45L5 35V15L25 5Z" fill="white" />
+                    </svg>
+                </div>
+                <span class="logo-text">ExcellenceSD</span>
+            </a>
+            <button class="hamburger active" aria-label="Close menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav class="mobile-nav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About District</a>
+            <a href="schools.html" class="nav-link">Schools</a>
+            <a href="enrollment.html" class="nav-link">Enrollment</a>
+            <a href="academics.html" class="nav-link">Academics</a>
+            <a href="careers.html" class="nav-link">Careers</a>
+            <a href="news-events.html" class="nav-link">News & Events</a>
+            <a href="enrollment.html" class="btn-primary">Enroll Now</a>
+        </nav>
+    </div>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" style="min-height: 50vh; padding: 6rem 1.5rem 3rem;">
+            <div class="hero-bg">
+                <div class="floating-shape shape-1"></div>
+                <div class="floating-shape shape-2"></div>
+            </div>
+            <div class="hero-content" style="text-align: center;">
+                <div class="hero-badge" style="justify-content: center;">
+                    <span class="hero-badge-dot"></span>
+                    Enrollment
+                </div>
+                <h1 class="hero-title">Enroll Today<br><span>Join Our Community</span></h1>
+                <p class="hero-text" style="max-width: 600px; margin: 0 auto 2rem;">Follow our simple 4-step process to
+                    enroll your child in our district schools.</p>
+            </div>
+        </section>
+
+        <!-- Process Steps -->
+        <section class="section section-white">
+            <div class="container">
+                <div class="process-steps animate-on-scroll">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <h4 class="step-title">Complete Application</h4>
+                        <p class="step-desc">Fill out the online enrollment form with your child's information.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <h4 class="step-title">Submit Documents</h4>
+                        <p class="step-desc">Upload required documents like birth certificate and proof of address.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <h4 class="step-title">School Assignment</h4>
+                        <p class="step-desc">We'll assign your child to the appropriate school based on address.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <h4 class="step-title">Welcome Packet</h4>
+                        <p class="step-desc">Receive your welcome packet with next steps and orientation dates.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Enrollment Form Preview -->
+        <section class="section section-gray">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <span class="section-badge">Get Started</span>
+                    <h2 class="section-title">Online Enrollment</h2>
+                    <p class="section-subtitle">Begin the enrollment process by filling out the form below.</p>
+                </div>
+
+                <div class="card animate-on-scroll" style="max-width: 800px; margin: 0 auto; padding: 2rem;">
+                    <form>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                            <div class="form-group">
+                                <label class="form-label">Parent/Guardian Name</label>
+                                <input type="text" class="form-input" placeholder="Full Name">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Email Address</label>
+                                <input type="email" class="form-input" placeholder="email@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Phone Number</label>
+                                <input type="tel" class="form-input" placeholder="(555) 123-4567">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Student's Grade Level</label>
+                                <select class="form-input">
+                                    <option>Select Grade</option>
+                                    <option>Pre-K</option>
+                                    <option>Kindergarten</option>
+                                    <option>Grade 1</option>
+                                    <option>Grade 2</option>
+                                    <option>Grade 3</option>
+                                    <option>Grade 4</option>
+                                    <option>Grade 5</option>
+                                    <option>Grade 6</option>
+                                    <option>Grade 7</option>
+                                    <option>Grade 8</option>
+                                    <option>Grade 9</option>
+                                    <option>Grade 10</option>
+                                    <option>Grade 11</option>
+                                    <option>Grade 12</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Student's Name</label>
+                                <input type="text" class="form-input" placeholder="Student's Full Name">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Date of Birth</label>
+                                <input type="date" class="form-input">
+                            </div>
+                            <div class="form-group" style="grid-column: 1 / -1;">
+                                <label class="form-label">Home Address</label>
+                                <input type="text" class="form-input" placeholder="Street Address">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">City</label>
+                                <input type="text" class="form-input" placeholder="City">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Zip Code</label>
+                                <input type="text" class="form-input" placeholder="12345">
+                            </div>
+                        </div>
+
+                        <div style="text-align: center; margin-top: 2rem;">
+                            <button type="button" class="btn-primary" style="min-width: 200px;">
+                                Continue Enrollment →
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Requirements -->
+        <section class="section section-white">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <span class="section-badge" style="background: rgba(42, 157, 143, 0.1); color: #2a9d8f;">Required
+                        Documents</span>
+                    <h2 class="section-title">What You'll Need</h2>
+                    <p class="section-subtitle">Gather these documents before starting your enrollment.</p>
+                </div>
+
+                <div class="grid-3">
+                    <div class="card card-padding animate-on-scroll">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="white" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Proof of Age</h3>
+                        <p class="card-text">Birth certificate or passport for the student being enrolled.</p>
+                    </div>
+
+                    <div class="card card-padding animate-on-scroll stagger-1">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="white" stroke-width="2">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Proof of Address</h3>
+                        <p class="card-text">Recent utility bill, lease agreement, or mortgage statement.</p>
+                    </div>
+
+                    <div class="card card-padding animate-on-scroll stagger-2">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="white" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Immunization Record</h3>
+                        <p class="card-text">Up-to-date immunization records from your healthcare provider.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="section section-gray">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <span class="section-badge"
+                        style="background: rgba(244, 162, 97, 0.1); color: var(--secondary);">FAQ</span>
+                    <h2 class="section-title">Common Questions</h2>
+                    <p class="section-subtitle">Find answers to frequently asked questions about enrollment.</p>
+                </div>
+
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div class="card card-padding animate-on-scroll" style="margin-bottom: 1rem;">
+                        <h3 style="font-size: 1.125rem; margin-bottom: 0.75rem;">When can I enroll my child?</h3>
+                        <p class="card-text">Enrollment is open year-round. For the upcoming school year, we recommend
+                            enrolling by July 1st to ensure your child is assigned to their preferred school.</p>
+                    </div>
+
+                    <div class="card card-padding animate-on-scroll stagger-1" style="margin-bottom: 1rem;">
+                        <h3 style="font-size: 1.125rem; margin-bottom: 0.75rem;">How do I know which school my child
+                            will attend?</h3>
+                        <p class="card-text">Students are assigned to schools based on their home address. Use our
+                            School Finder tool to determine which school serves your area.</p>
+                    </div>
+
+                    <div class="card card-padding animate-on-scroll stagger-2" style="margin-bottom: 1rem;">
+                        <h3 style="font-size: 1.125rem; margin-bottom: 0.75rem;">Can I transfer my child to a different
+                            school?</h3>
+                        <p class="card-text">In-district transfers are available based on capacity. Submit a transfer
+                            request form for consideration. Out-of-district requests require superintendent approval.
+                        </p>
+                    </div>
+
+                    <div class="card card-padding animate-on-scroll stagger-3">
+                        <h3 style="font-size: 1.125rem; margin-bottom: 0.75rem;">What if I don't have all the required
+                            documents?</h3>
+                        <p class="card-text">You can start the enrollment process and upload documents later. However,
+                            final enrollment cannot be completed until all required documents are submitted.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="section cta-section">
+            <div class="container animate-on-scroll" style="text-align: center;">
+                <span class="section-badge" style="background: rgba(255,255,255,0.1); color: white;">Need Help?</span>
+                <h2 style="font-size: 2.5rem; color: white; margin: 1rem 0;">Have Questions?</h2>
+                <p style="font-size: 1.25rem; color: rgba(255,255,255,0.8); max-width: 48rem; margin: 0 auto 2rem;">Our
+                    enrollment team is here to help you through every step of the process.</p>
+                <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+                    <a href="#" class="btn-primary">Contact Enrollment Team</a>
+                    <a href="#" class="btn-secondary" style="border-color: white; color: white;">Call Us: (555)
+                        123-4567</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div>
+                <div class="footer-brand">
+                    <div class="footer-brand-icon">
+                        <svg viewBox="0 0 50 50" width="32" height="32">
+                            <path d="M25 5L45 15V35L25 45L5 35V15L25 5Z" fill="white" />
+                        </svg>
+                    </div>
+                    <span class="logo-text">ExcellenceSD</span>
+                </div>
+                <p class="footer-text">Where every student succeeds. Building bright futures through world-class
+                    education.</p>
+            </div>
+
+            <div>
+                <h4 class="footer-title">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">About District</a></li>
+                    <li><a href="schools.html">Our Schools</a></li>
+                    <li><a href="enrollment.html">Enrollment</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="footer-title">Resources</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Parent Portal</a></li>
+                    <li><a href="#">Student Portal</a></li>
+                    <li><a href="#">Staff Portal</a></li>
+                    <li><a href="#">District Calendar</a></li>
+                    <li><a href="#">Food Services</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="footer-title">Contact</h4>
+                <ul class="footer-links">
+                    <li style="display: flex; align-items: center; gap: 0.5rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="var(--secondary)" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        123 Education Way
+                    </li>
+                    <li style="display: flex; align-items: center; gap: 0.5rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="var(--secondary)" stroke-width="2">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg>
+                        (555) 123-4567
+                    </li>
+                    <li style="display: flex; align-items: center; gap: 0.5rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="var(--secondary)" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        info@excellencesd.edu
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Excellence School District. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

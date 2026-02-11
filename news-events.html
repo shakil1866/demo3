@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="News and Events from Excellence School District - Stay informed about announcements and upcoming events.">
+    <title>News & Events | Excellence School District</title>
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 50 50" width="32" height="32">
+                        <path d="M25 5L45 15V35L25 45L5 35V15L25 5Z" fill="white" />
+                    </svg>
+                </div>
+                <span class="logo-text">Excellence<span>SD</span></span>
+            </a>
+
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About District</a>
+                <a href="schools.html" class="nav-link">Schools</a>
+                <a href="enrollment.html" class="nav-link">Enrollment</a>
+                <a href="academics.html" class="nav-link">Academics</a>
+                <a href="careers.html" class="nav-link">Careers</a>
+                <a href="news-events.html" class="nav-link active">News & Events</a>
+                <a href="enrollment.html" class="btn-primary">Enroll Now</a>
+            </div>
+
+            <button class="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 50 50" width="32" height="32">
+                        <path d="M25 5L45 15V35L25 45L5 35V15L25 5Z" fill="white" />
+                    </svg>
+                </div>
+                <span class="logo-text">ExcellenceSD</span>
+            </a>
+            <button class="hamburger active" aria-label="Close menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav class="mobile-nav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About District</a>
+            <a href="schools.html" class="nav-link">Schools</a>
+            <a href="enrollment.html" class="nav-link">Enrollment</a>
+            <a href="academics.html" class="nav-link">Academics</a>
+            <a href="careers.html" class="nav-link">Careers</a>
+            <a href="news-events.html" class="nav-link">News & Events</a>
+            <a href="enrollment.html" class="btn-primary">Enroll Now</a>
+        </nav>
+    </div>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" style="min-height: 50vh; padding: 6rem 1.5rem 3rem;">
+            <div class="hero-bg">
+                <div class="floating-shape shape-1"></div>
+                <div class="floating-shape shape-2"></div>
+            </div>
+            <div class="hero-content" style="text-align: center;">
+                <div class="hero-badge" style="justify-content: center;">
+                    <span class="hero-badge-dot"></span>
+                    News & Events
+                </div>
+                <h1 class="hero-title">Stay<br><span>Informed</span></h1>
+                <p class="hero-text" style="max-width: 600px; margin: 0 auto 2rem;">Latest announcements, upcoming
+                    events, and stories from across our district.</p>
+            </div>
+        </section>
+
+        <!-- Filter Section -->
+        <section class="section section-white">
+            <div class="container">
+                <div class="filter-buttons animate-on-scroll" style="justify-content: center; margin-bottom: 2rem;">
+                    <button class="filter-btn active" data-filter="all">All Posts</button>
+                    <button class="filter-btn" data-filter="news">News</button>
+                    <button class="filter-btn" data-filter="announcements">Announcements</button>
+                    <button class="filter-btn" data-filter="events">Events</button>
+                </div>
+
+                <div class="grid-3" id="news-grid">
+                    <!-- News Articles -->
+                    <article class="card animate-on-scroll" data-category="news">
+                        <div class="card-image"
+                            style="height: 10rem; background: linear-gradient(135deg, #1e3a5f, #264653);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="white" stroke-width="1.5">
+                                <path
+                                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="card-padding">
+                            <span class="card-date">February 10, 2026</span>
+                            <span
+                                style="display: inline-block; font-size: 0.75rem; color: var(--secondary); font-weight: 600; margin-bottom: 0.5rem;">News</span>
+                            <h3 class="card-title">Students Win State Robotics Competition</h3>
+                            <p class="card-text">Congratulations to our robotics team for their outstanding performance
+                                at the state championship.</p>
+                            <a href="#" class="card-link">Read More →</a>
+                        </div>
+                    </article>
+
+                    <article class="card animate-on-scroll stagger-1" data-category="announcements">
+                        <div class="card-image"
+                            style="height: 10rem; background: linear-gradient(135deg, #2a9d8f, #21867a);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="white" stroke-width="1.5">
+                                <path
+                                    d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="card-padding">
+                            <span class="card-date">February 8, 2026</span>
+                            <span
+                                style="display: inline-block; font-size: 0.75rem; color: #2a9d8f; font-weight: 600; margin-bottom: 0.5rem;">Announcement</span>
+                            <h3 class="card-title">Spring Semester Calendar Released</h3>
+                            <p class="card-text">Important dates for the upcoming spring semester have been published.
+                            </p>
+                            <a href="#" class="card-link">Read More →</a>
+                        </div>
+                    </article>
+
+                    <article class="card animate-on-scroll stagger-2" data-category="news">
+                        <div class="card-image"
+                            style="height: 10rem; background: linear-gradient(135deg, #f4a261, #e76f51);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="white" stroke-width="1.5">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <div class="card-padding">
+                            <span class="card-date">February 5, 2026</span>
+                            <span
+                                style="display: inline-block; font-size: 0.75rem; color: var(--secondary); font-weight: 600; margin-bottom: 0.5rem;">News</span>
+                            <h3 class="card-title">New Parent Portal Launched</h3>
+                            <p class="card-text">We're excited to announce our new parent portal for better
+                                communication.</p>
+                            <a href="#" class="card-link">Read More →</a>
+                        </div>
+                    </article>
+
+                    <article class="card animate-on-scroll" data-category="events">
+                        <div class="card-image"
+                            style="height: 10rem; background: linear-gradient(135deg, #264653, #1e3a5f);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="white" stroke-width="1.5">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                        </div>
+                        <div class="card-padding">
+                            <span class="card-date">February 15, 2026</span>
+                            <span
+                                style="display: inline-block; font-size: 0.75rem; color: #264653; font-weight: 600; margin-bottom: 0.5rem;">Event</span>
+                            <h3 class="card-title">District Career Fair</h3>
+                            <p class="card-text">Join us for our annual career fair featuring local employers and
+                                colleges.</p>
+                            <a href="#" class="card-link">Learn More →</a>
+                        </div>
+                    </article>
+
+                    <article class="card animate-on-scroll stagger-1" data-category="news">
+                        <div class="card-image"
+                            style="height: 10rem; background: linear-gradient(135deg, #1e3a5f, #2a9d8f);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="white" stroke-width="1.5">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                            </svg>
+                        </div>
+                        <div class="card-padding">
+                            <span class="card-date">February 3, 2026</span>
+                            <span
+                                style="display: inline-block; font-size: 0.75rem; color: var(--secondary); font-weight: 600; margin-bottom: 0.5rem;">News</span>
+                            <h3 class="card-title">AP Scores Exceed State Average</h3>
+                            <p class="card-text">Our students continue to excel with record-breaking AP exam scores.</p>
+                            <a href="#" class="card-link">Read More →</a>
+                        </div>
+                    </article>
+
+                    <article class="card animate-on-scroll stagger-2" data-category="announcements">
+                        <div class="card-image"
+                            style="height: 10rem; background: linear-gradient(135deg, #2a9d8f, #f4a261);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="white" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="8" x2="12" y2="12"></line>
+                                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                            </svg>
+                        </div>
+                        <div class="card-padding">
+                            <span class="card-date">February 1, 2026</span>
+                            <span
+                                style="display: inline-block; font-size: 0.75rem; color: #2a9d8f; font-weight: 600; margin-bottom: 0.5rem;">Announcement</span>
+                            <h3 class="card-title">Enrollment for Next Year Opens</h3>
+                            <p class="card-text">Current families can now enroll for the 2026-2027 school year.</p>
+                            <a href="enrollment.html" class="card-link">Enroll Now →</a>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Pagination -->
+                <div class="text-center mt-8 animate-on-scroll">
+                    <div style="display: flex; justify-content: center; gap: 0.5rem;">
+                        <a href="#" class="filter-btn active">1</a>
+                        <a href="#" class="filter-btn">2</a>
+                        <a href="#" class="filter-btn">3</a>
+                        <a href="#" class="filter-btn">Next →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Upcoming Events -->
+        <section class="section section-gray">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <span class="section-badge" style="background: rgba(42, 157, 143, 0.1); color: #2a9d8f;">Save the
+                        Date</span>
+                    <h2 class="section-title">Upcoming Events</h2>
+                    <p class="section-subtitle">Mark your calendar for these important dates.</p>
+                </div>
+
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div class="card card-padding animate-on-scroll"
+                        style="display: flex; gap: 1.5rem; align-items: center;">
+                        <div style="text-align: center; min-width: 80px;">
+                            <div style="font-size: 2rem; font-weight: 700; color: var(--primary);">15</div>
+                            <div style="font-size: 0.875rem; color: var(--gray-500);">Feb</div>
+                        </div>
+                        <div style="flex: 1;">
+                            <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">District Career Fair</h3>
+                            <p class="card-text">10:00 AM - 2:00 PM | District Administration Building</p>
+                        </div>
+                        <a href="#" class="btn-secondary"
+                            style="border-color: var(--primary); color: var(--primary);">Details</a>
+                    </div>
+
+                    <div class="card card-padding animate-on-scroll stagger-1"
+                        style="display: flex; gap: 1.5rem; align-items: center; margin-top: 1rem;">
+                        <div style="text-align: center; min-width: 80px;">
+                            <div style="font-size: 2rem; font-weight: 700; color: var(--primary);">20</div>
+                            <div style="font-size: 0.875rem; color: var(--gray-500);">Feb</div>
+                        </div>
+                        <div style="flex: 1;">
+                            <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">School Board Meeting</h3>
+                            <p class="card-text">6:00 PM | Virtual Meeting</p>
+                        </div>
+                        <a href="#" class="btn-secondary"
+                            style="border-color: var(--primary); color: var(--primary);">Details</a>
+                    </div>
+
+                    <div class="card card-padding animate-on-scroll stagger-2"
+                        style="display: flex; gap: 1.5rem; align-items: center; margin-top: 1rem;">
+                        <div style="text-align: center; min-width: 80px;">
+                            <div style="font-size: 2rem; font-weight: 700; color: var(--primary);">28</div>
+                            <div style="font-size: 0.875rem; color: var(--gray-500);">Feb</div>
+                        </div>
+                        <div style="flex: 1;">
+                            <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Spring Talent Show</h3>
+                            <p class="card-text">7:00 PM | Excellence High School Auditorium</p>
+                        </div>
+                        <a href="#" class="btn-secondary"
+                            style="border-color: var(--primary); color: var(--primary);">Details</a>
+                    </div>
+
+                    <div class="text-center mt-8">
+                        <a href="#" class="btn-primary">View Full Calendar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Subscribe -->
+        <section class="section cta-section">
+            <div class="container animate-on-scroll" style="text-align: center;">
+                <span class="section-badge" style="background: rgba(255,255,255,0.1); color: white;">Stay
+                    Connected</span>
+                <h2 style="font-size: 2.5rem; color: white; margin: 1rem 0;">Subscribe to Our Newsletter</h2>
+                <p style="font-size: 1.25rem; color: rgba(255,255,255,0.8); max-width: 48rem; margin: 0 auto 2rem;">Get
+                    the latest news and updates delivered straight to your inbox.</p>
+                <div
+                    style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; max-width: 500px; margin: 0 auto;">
+                    <input type="email" class="form-input" placeholder="Enter your email"
+                        style="flex: 1; min-width: 200px;">
+                    <button class="btn-primary">Subscribe</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div>
+                <div class="footer-brand">
+                    <div class="footer-brand-icon">
+                        <svg viewBox="0 0 50 50" width="32" height="32">
+                            <path d="M25 5L45 15V35L25 45L5 35V15L25 5Z" fill="white" />
+                        </svg>
+                    </div>
+                    <span class="logo-text">ExcellenceSD</span>
+                </div>
+                <p class="footer-text">Where every student succeeds. Building bright futures through world-class
+                    education.</p>
+            </div>
+
+            <div>
+                <h4 class="footer-title">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">About District</a></li>
+                    <li><a href="schools.html">Our Schools</a></li>
+                    <li><a href="enrollment.html">Enrollment</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="footer-title">Resources</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Parent Portal</a></li>
+                    <li><a href="#">Student Portal</a></li>
+                    <li><a href="#">Staff Portal</a></li>
+                    <li><a href="#">District Calendar</a></li>
+                    <li><a href="#">Food Services</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="footer-title">Contact</h4>
+                <ul class="footer-links">
+                    <li style="display: flex; align-items: center; gap: 0.5rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="var(--secondary)" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        123 Education Way
+                    </li>
+                    <li style="display: flex; align-items: center; gap: 0.5rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="var(--secondary)" stroke-width="2">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg>
+                        (555) 123-4567
+                    </li>
+                    <li style="display: flex; align-items: center; gap: 0.5rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="var(--secondary)" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        info@excellencesd.edu
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Excellence School District. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
