@@ -1856,6 +1856,14 @@ h6 {
 /* ============================================
    Events Section
    ============================================ */
+.events-section {
+    overflow: hidden;
+}
+
+.events-section .split-layout {
+    align-items: start;
+}
+
 .events-list {
     padding-right: 2rem;
 }
@@ -2350,6 +2358,52 @@ h6 {
         padding: 0;
     }
 
+    .events-list {
+        order: 2;
+    }
+
+    .calendar-widget {
+        order: 1;
+        margin-bottom: 2rem;
+    }
+
+    .calendar-placeholder {
+        padding: 1.5rem;
+    }
+
+    .calendar-days .day {
+        width: 36px;
+        height: 36px;
+        font-size: 0.8rem;
+    }
+
+    .event-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .event-item {
+        flex-direction: column;
+        gap: 0.75rem;
+        padding: 1rem;
+    }
+
+    .event-date {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        min-width: auto;
+    }
+
+    .event-date .month {
+        font-size: 0.65rem;
+    }
+
+    .event-date .day {
+        font-size: 1.5rem;
+    }
+
     .cta-stats {
         gap: 2rem;
     }
@@ -2388,6 +2442,63 @@ h6 {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .calendar-widget {
+        margin-bottom: 1.5rem;
+    }
+
+    .calendar-placeholder {
+        padding: 1rem;
+    }
+
+    .calendar-header h3 {
+        font-size: 1rem;
+    }
+
+    .calendar-btn {
+        width: 30px;
+        height: 30px;
+    }
+
+    .calendar-days .day {
+        width: 32px;
+        height: 32px;
+        font-size: 0.75rem;
+    }
+
+    .calendar-weekdays span {
+        font-size: 0.65rem;
+    }
+
+    .event-items {
+        grid-template-columns: 1fr;
+    }
+
+    .event-item {
+        flex-direction: row;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .event-date {
+        min-width: 50px;
+    }
+
+    .event-date .month {
+        font-size: 0.6rem;
+    }
+
+    .event-date .day {
+        font-size: 1.25rem;
+    }
+
+    .event-details h4 {
+        font-size: 0.9rem;
+    }
+
+    .event-details p {
+        font-size: 0.8rem;
+    }
+
     .cta-buttons {
         flex-direction: column;
         align-items: center;
@@ -2413,6 +2524,70 @@ h6 {
 
     .event-item {
         flex-direction: column;
-        gap: 0.75rem;
+        gap: 0.5rem;
+        padding: 0.75rem;
+    }
+
+    .event-date {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.25rem;
+        min-width: auto;
+    }
+
+    .event-date .month {
+        font-size: 0.6rem;
+    }
+
+    .event-date .day {
+        font-size: 1.25rem;
+    }
+
+    .event-details h4 {
+        font-size: 0.875rem;
+    }
+
+    .event-details p {
+        font-size: 0.75rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .event-category {
+        font-size: 0.65rem;
+        padding: 0.2rem 0.4rem;
+    }
+
+    .calendar-placeholder {
+        padding: 0.75rem;
+    }
+
+    .calendar-header {
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .calendar-days .day {
+        width: 28px;
+        height: 28px;
+        font-size: 0.7rem;
+    }
+
+    .calendar-legend {
+        gap: 1rem;
+        font-size: 0.7rem;
+    }
+
+    .calendar-weekdays {
+        gap: 0.25rem;
+    }
+
+    .calendar-weekdays span {
+        font-size: 0.6rem;
+    }
+
+    .calendar-days {
+        gap: 0.25rem;
     }
 }
