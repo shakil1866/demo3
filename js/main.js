@@ -136,6 +136,8 @@ function initCounterAnimations() {
  */
 function animateCounter(element) {
     const target = parseInt(element.getAttribute('data-count'));
+    const suffix = element.getAttribute('data-suffix') || '';
+    const prefix = element.getAttribute('data-prefix') || '';
     const duration = 2000;
     const step = target / (duration / 16);
     let current = 0;
@@ -143,10 +145,10 @@ function animateCounter(element) {
     const timer = setInterval(() => {
         current += step;
         if (current >= target) {
-            element.textContent = formatNumber(target);
+            element.textContent = prefix + formatNumber(target) + suffix;
             clearInterval(timer);
         } else {
-            element.textContent = formatNumber(Math.floor(current));
+            element.textContent = prefix + formatNumber(Math.floor(current)) + suffix;
         }
     }, 16);
 }
